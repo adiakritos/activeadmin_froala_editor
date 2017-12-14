@@ -47,6 +47,12 @@ Toolbar buttons configuration:
 f.input :description, as: :froala_editor, input_html: {data: {options: {toolbarButtons: ['undo', 'redo', '|', 'bold', 'italic']}}}
 ```
 
+## Adding License Key
+
+```
+  f.input :content, as: :froala_editor, input_html: { data: { options: { key: '<ADD YOUR KEY HERE>' } } }
+```
+
 ## Notes
 
 - *Code View* function doesn't work properly with this plugin
